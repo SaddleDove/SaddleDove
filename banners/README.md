@@ -13,3 +13,13 @@ cowboys, different skies — every one a standoff under something bigger than bo
 The cowboy silhouette is the anchor of the series; the sky does the talking. Seasonal
 one-offs get their own file so the archive keeps the whole family. Swap any of these
 into the site header by pointing the theme's banner image at the file.
+
+## Gallery
+
+![Red Sun Duel](red-sun-duel.png)
+
+![Space Cowboy](space-cowboy.png)
+
+![Neon Pride](neon-pride.png)
+
+![Aurora Duel](aurora-duel.png)
