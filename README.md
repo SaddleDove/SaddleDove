@@ -1,5 +1,7 @@
 # Bow Arkwright
 
+<img src="banner.png" alt="A western duel — two silhouettes facing off under a red sun" width="100%">
+
 Independent full-stack developer. I build small, strange, useful things — browser labs, local-first tools, song studies, and the occasional poem generator.
 
 [🌐 Site & dev log](https://saddledove.github.io) · [📓 Notes on rock & poetry](https://saddledove.github.io/saddle-notes/)
