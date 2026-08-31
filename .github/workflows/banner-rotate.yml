@@ -1,0 +1,32 @@
+name: rotate-banner
+
+on:
+  schedule:
+    # 16:00 UTC = 00:00 Asia/Shanghai — swap the profile banner once a day
+    - cron: "0 16 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pick banner for today
+        run: python .github/scripts/rotate_banner.py
+
+      - name: Commit if the banner changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "banner unchanged — nothing to commit"
+          else
+            git config user.name "Bow Arkwright"
+            git config user.email "313375506+saddledove@users.noreply.github.com"
+            git add README.md
+            git commit -m "Rotate seasonal profile banner"
+            git push
+            echo "banner rotated"
+          fi
