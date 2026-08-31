@@ -11,6 +11,7 @@ cowboys, different skies — every one a standoff under something bigger than bo
 | `aurora-duel.png` | Aurora Duel | frost cyan, violet, polar neon pink |
 | `pumpkin-duel.png` | Pumpkin Duel | jack-o'-lantern orange, ember red, midnight violet — Halloween special |
 | `star-chart-duel.png` | Star Chart Duel | antique cartography sepia, celestial gold, ink black |
+| `watch-over-earth.png` | Watch Over Earth | deep-space black, sepia rock, pale earthlight |
 
 The cowboy silhouette is the anchor of the series; the sky does the talking. Seasonal
 one-offs get their own file so the archive keeps the whole family. Swap any of these
@@ -29,3 +30,5 @@ into the site header by pointing the theme's banner image at the file.
 ![Pumpkin Duel](pumpkin-duel.png)
 
 ![Star Chart Duel](star-chart-duel.png)
+
+![Watch Over Earth](watch-over-earth.png)
