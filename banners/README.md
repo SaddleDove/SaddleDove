@@ -9,6 +9,7 @@ cowboys, different skies — every one a standoff under something bigger than bo
 | `space-cowboy.png` | Space Cowboy | deep indigo, lunar silver, alien sand |
 | `neon-pride.png` | Neon Pride | disco gold, magenta, bi-pride neon — June special |
 | `aurora-duel.png` | Aurora Duel | arctic violet, aurora green, midnight |
+| `pumpkin-duel.png` | Pumpkin Duel | jack-o'-lantern orange, ember red, midnight violet — Halloween special |
 
 The cowboy silhouette is the anchor of the series; the sky does the talking. Seasonal
 one-offs get their own file so the archive keeps the whole family. Swap any of these
@@ -23,3 +24,5 @@ into the site header by pointing the theme's banner image at the file.
 ![Neon Pride](neon-pride.png)
 
 ![Aurora Duel](aurora-duel.png)
+
+![Pumpkin Duel](pumpkin-duel.png)
