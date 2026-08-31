@@ -42,8 +42,8 @@ The banners rotate automatically — the cowboy stays, the sky changes with the 
 | When | Banner |
 |------|--------|
 | June | `neon-pride.png` (pride month) |
-| October | `pumpkin-duel.png` (halloween) |
-| December–February | `aurora-duel.png` (winter) |
+| October 25–31 | `pumpkin-duel.png` (halloween week) |
+| December 21–27 | `aurora-duel.png` (winter solstice week) |
 | April 22 | `watch-over-earth.png` (earth day) |
 | Any other day | weighted draw — red-sun 40 · space-cowboy 40 · watch-over-earth 15 · **star-chart 5** |
 

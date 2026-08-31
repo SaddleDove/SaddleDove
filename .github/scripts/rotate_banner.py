@@ -13,10 +13,10 @@ README = ROOT / "README.md"
 
 # Seasonal overrides win over the pool.
 SEASONAL = [
-    (lambda d: d.month == 6, "neon-pride.png"),            # June — pride
-    (lambda d: d.month == 10, "pumpkin-duel.png"),         # October — halloween
-    (lambda d: d.month in (12, 1, 2), "aurora-duel.png"),  # Dec–Feb — winter
-    (lambda d: d.month == 4 and d.day == 22, "watch-over-earth.png"),  # Apr 22 — earth day
+    (lambda d: d.month == 6, "neon-pride.png"),                                   # June — pride
+    (lambda d: d.month == 10 and d.day >= 25, "pumpkin-duel.png"),                # Oct 25–31 — halloween week
+    (lambda d: d.month == 12 and 21 <= d.day <= 27, "aurora-duel.png"),           # Dec 21–27 — winter solstice week
+    (lambda d: d.month == 4 and d.day == 22, "watch-over-earth.png"),             # Apr 22 — earth day
 ]
 # Default pool; star-chart is the hidden rare one (5%).
 POOL = [
