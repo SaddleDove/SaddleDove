@@ -32,3 +32,26 @@ into the site header by pointing the theme's banner image at the file.
 ![Star Chart Duel](star-chart-duel.png)
 
 ![Watch Over Earth](watch-over-earth.png)
+
+## Seasonal rotation
+
+The banners rotate automatically — the cowboy stays, the sky changes with the calendar.
+
+**Rules**
+
+| When | Banner |
+|------|--------|
+| June | `neon-pride.png` (pride month) |
+| October | `pumpkin-duel.png` (halloween) |
+| December–February | `aurora-duel.png` (winter) |
+| April 22 | `watch-over-earth.png` (earth day) |
+| Any other day | weighted draw — red-sun 40 · space-cowboy 40 · watch-over-earth 15 · **star-chart 5** |
+
+`star-chart-duel.png` is the hidden one: it wins the draw only ~5% of the time, so it shows up roughly a dozen days a year. Consider yourself lucky.
+
+**How it's wired**
+
+- **Profile README** — a GitHub Actions cron (`.github/workflows/banner-rotate.yml`) runs daily at 00:00 Asia/Shanghai. `.github/scripts/rotate_banner.py` picks the day's banner and rewrites the `<img src="banners/...">` line in the profile README, committing only when the banner actually changes. The filename switch is deliberate: a new URL busts GitHub's image cache, so the swap shows up immediately instead of lingering on the old art.
+- **saddle-notes site** — the same rule set runs client-side. `layouts/partials/banner.html` bundles all seven banners and swaps the `<img>` src with a small date-seeded picker; visitors without JavaScript get the default banner. The two sides share the same seed algorithm, so profile and site agree on the same image each day.
+
+**Adding a theme**: drop the PNG into `banners/`, add a row to the table and a line to the gallery above, then add the matching rule to `rotate_banner.py` and to the site's `banner.html` partial. That's it.
