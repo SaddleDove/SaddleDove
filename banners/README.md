@@ -8,7 +8,7 @@ cowboys, different skies — every one a standoff under something bigger than bo
 | `red-sun-duel.png` | Red Sun Duel | wasteland amber, blood-red sun |
 | `space-cowboy.png` | Space Cowboy | deep indigo, lunar silver, alien sand |
 | `neon-pride.png` | Neon Pride | disco gold, magenta, bi-pride neon — June special |
-| `aurora-duel.png` | Aurora Duel | arctic violet, aurora green, midnight |
+| `aurora-duel.png` | Aurora Duel | frost cyan, violet, polar neon pink |
 | `pumpkin-duel.png` | Pumpkin Duel | jack-o'-lantern orange, ember red, midnight violet — Halloween special |
 | `star-chart-duel.png` | Star Chart Duel | antique cartography sepia, celestial gold, ink black |
 
