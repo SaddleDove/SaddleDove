@@ -1,4 +1,4 @@
-# Bow Arkwright
+# Bow Arkwright 🤠 📻
 
 Independent full-stack developer. I build small, strange, useful things — browser labs, local-first tools, song studies, and the occasional poem generator.
 
