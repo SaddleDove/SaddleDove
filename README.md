@@ -1,6 +1,6 @@
 # Bow Arkwright
 
-<img src="banners/red-sun-duel.png" alt="A western duel — two silhouettes facing off under a red sun" width="100%">
+<img src="banners/watch-over-earth.png" alt="A western duel — two silhouettes facing off under a red sun" width="100%">
 
 Independent full-stack developer. I build small, strange, useful things — browser labs, local-first tools, song studies, and the occasional poem generator.
 
