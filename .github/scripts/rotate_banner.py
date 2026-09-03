@@ -15,6 +15,7 @@ README = ROOT / "README.md"
 SEASONAL = [
     (lambda d: d.month == 6, "neon-pride.png"),                                   # June — pride
     (lambda d: d.month == 10 and d.day >= 25, "pumpkin-duel.png"),                # Oct 25–31 — halloween week
+    (lambda d: d.month == 12 and 24 <= d.day <= 25, "christmas-duel.png"),       # Dec 24–25 — christmas (beats aurora)
     (lambda d: d.month == 12 and 21 <= d.day <= 27, "aurora-duel.png"),           # Dec 21–27 — winter solstice week
     (lambda d: d.month == 4 and d.day == 22, "watch-over-earth.png"),             # Apr 22 — earth day
 ]
